@@ -1,5 +1,8 @@
 # 디자인 시스템 계층
 
+<img width="1280" alt="image" src="https://github.com/user-attachments/assets/66a362e4-c785-4d12-a295-d4e9862bb7d4">
+
+
 ## design system component
 - 추상화 수준이 높음
 - 확장성 >> 사용성
