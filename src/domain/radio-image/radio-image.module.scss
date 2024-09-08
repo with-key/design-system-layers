@@ -1,0 +1,13 @@
+.label {
+    .image {
+        display: block;
+        width: 210px;
+        height: 300px;
+    }
+
+    &[data-state="checked"] {
+        .image {
+            border: 1px solid var(--accent-05);
+        }
+    }
+}

@@ -1,0 +1,39 @@
+@import "./primitive-colors.scss";
+[data-accent-color="red"] {
+  --accent-01: var(--red01);
+  --accent-02: var(--red02);
+  --accent-03: var(--red03);
+  --accent-04: var(--red04);
+  --accent-05: var(--red05);
+  --accent-06: var(--red06);
+  --accent-07: var(--red07);
+  --accent-08: var(--red08);
+  --accent-09: var(--red09);
+  --accent-10: var(--red10);
+}
+
+[data-accent-color="blue"] {
+  --accent-01: var(--blue01);
+  --accent-02: var(--blue02);
+  --accent-03: var(--blue03);
+  --accent-04: var(--blue04);
+  --accent-05: var(--blue05);
+  --accent-06: var(--blue06);
+  --accent-07: var(--blue07);
+  --accent-08: var(--blue08);
+  --accent-09: var(--blue09);
+  --accent-10: var(--blue10);
+}
+
+[data-accent-color="green"] {
+  --accent-01: var(--green01);
+  --accent-02: var(--green02);
+  --accent-03: var(--green03);
+  --accent-04: var(--green04);
+  --accent-05: var(--green05);
+  --accent-06: var(--green06);
+  --accent-07: var(--green07);
+  --accent-08: var(--green08);
+  --accent-09: var(--green09);
+  --accent-10: var(--green10);
+}

@@ -1,0 +1,42 @@
+.container {
+    all: unset;
+    border: 1px solid #ddd;
+    display: inline-flex;
+    height: 36px;
+    padding: 8px;
+    border-radius: 10px;
+    gap: 10px;
+
+    .badge {
+        font-size: 10px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        height: 16px;
+        border-radius: 8px;
+        background-color: var(--accent-05);
+        color: #fff;
+    }
+
+    .item {
+        all: unset;
+        box-sizing: border-box;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        gap: 4px;
+        padding: 8px;
+        font-size: 14px;
+        border-radius: 10px;
+        &[data-state="checked"] {
+            background-color: var(--accent-05);
+            color: #fff;
+
+            .badge {
+                background-color: #fff;
+                color: var(--accent-05);
+            }
+        }
+    }
+}

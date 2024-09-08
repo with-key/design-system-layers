@@ -1,0 +1,12 @@
+.button {
+    border: 1px solid transparent;
+    width: 100px;
+    height: 32px;
+
+    border-radius: 10px;
+
+    &.primary {
+        background-color: var(--accent-05);
+        color: white;
+    }
+}
